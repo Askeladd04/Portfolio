@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.49"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css && rsync -a --exclude='dist/' ./ dist/",
+    "deploy": "gh-pages -d dist"
+  }
+}

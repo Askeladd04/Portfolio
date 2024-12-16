@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./animateStyle.css">
+    <title>Merdanow</title>
+  </head>
+  <!-- TODD:  add overflow-hidden md:overflow-auto  -->
+  <body class="bg-[#000] font-poppins  ">
+    <header class="m-auto h-[80vh] sm:h-[100vh] flex flex-col justify-center relative">
+      <section class="flex justify-between items-center mb-8">
+        <div class="flex items-center relative justify-center">
+          <img src="./img/ava.svg" alt="" class=" w-[90px] sm:w-[180px] md:w-[250px]" />
+          <span
+            class="text-[#FF003D] absolute left-[70px] md:left-[190px] sm:left-[130px]  text-[12px] md:text-[22px] sm:text-[17px]  tracking-[4px] sm:tracking-[8px] font-semibold" 
+          >
+            ANONYMS
+          </span>
+        </div>
+        <div>
+          <p
+            class="text-[#FF2B51] font-semibold text-[13px] md:text-[30px] sm:text-[17px]  text-right mr-[40px] tracking-[4px] sm:tracking-[8px]"
+          >
+            <span class="font-medium ">Myrat</span> <br />
+            Merdanow
+          </p>
+        </div>
+      </section>
+
+      <section class="relative w-full h-full bg-teql-500">
+        <div class="absolute -sm:top-[40%] bottom-[81px] left-[50%] transform -translate-x-1/2">
+          <img
+            src="./img/Ellipse 1.svg"
+            class=" w-[250px] sm:w-[500px] filter drop-shadow-[0_0_30px_#E40037] border-none animate-pulse"
+            alt=""
+          />
+          <img
+            src="./img/image 1.png"
+            class="absolute top-[20px] right-[15px] w-[200px] sm:w-[500px] border-none "
+            alt=""
+          />
+        </div>
+      
+        <div class="absolute left-[50%] transform -translate-x-1/2 top-  p-8 rounded-lg w-[100%]  sm:w-[60%]  text-center">
+          <h2 class="text-animate text-[transparent] bg-clip-text bg-gradient-to-l from-[#FFF] to-[#FF2B51] text-[20px] md:text-[35px] sm:text-[24px] font-semibold mb-4">
+            Frontend Developer
+          </h2>
+        </div>
+      </section>
+      
+
+      <nav class="absolute right-[40px] h-[100%] flex items-center ">
+        <ul class="text-[#FFF] flex flex-col gap-[150px] text-[25px] font-medium">
+          <a href="https://github.com/Askeladd04?tab=repositories"
+            ><li class=" hidden sm:inline-block sm:transform sm:rotate-90 cursor-pointer hover:text-[#FFBABA]">Projects</li></a
+          >
+          <li class=" hidden sm:inline-block sm:transform sm:rotate-90 cursor-pointer hover:text-[#FFBABA]">
+            <a href="#skills">Skills</a>
+          </li>
+        </ul>
+      </nav>
+      
+      
+    </header>
+
+   <div class=" md:hidden fixed right-[30px] bottom-[100px] animate-bounce cursor-pointer">
+      <a href="#skills">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF003D" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16" >
+      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+    </svg>
+      </a>
+    </div>
+
+    <section id="skills" class="w-full mt-[40px] py-[80px] bg-[#111]">
+      <h2 class="text-[#FF003D] text-[35px] sm:text-[50px] text-center font-semibold mb-12">
+        Skills
+      </h2>
+      <div class="max-w-[1200px] mx-auto px-4 flex flex-row sm:flex-col flex-wrap items-center justify-center gap-[60px]">
+        <div class="text-center">
+          <h3 class="text-[#FFF] text-[20px] sm:text-[30px] font-semibold mb-6">Frontend Basics</h3>
+          <div class="flex justify-center flex-wrap gap-[40px]">
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">HTML</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">CSS</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15x] sm:text-[25px]">JavaScript</h4>
+            </div>
+          </div>
+        </div>
+    
+        <div class="text-center">
+          <h3 class="text-[#FFF] text-[20px] sm:text-[30px] font-semibold mb-6">Frameworks & Libraries</h3>
+          <div class="flex justify-center flex-wrap gap-[40px]">
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">React</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Ant Design (AntD)</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Tailwind CSS</h4>
+            </div>
+          </div>
+        </div>
+    
+        <div class="text-center">
+          <h3 class="text-[#FFF] text-[20px] sm:text-[30px] font-semibold mb-6">State Management</h3>
+          <div class="flex justify-center flex-wrap gap-[40px]">
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Redux</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Redux Toolkit</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">RTK Query</h4>
+            </div>
+          </div>
+        </div>
+    
+        <div class="text-center">
+          <h3 class="text-[#FFF] text-[20px] sm:text-[30px] font-semibold mb-6 ">API Tools</h3>
+          <div class="flex justify-center flex-wrap gap-[40px]">
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Axios</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <h3 class="text-[#FFF] text-[20px] sm:text-[30px] font-semibold mb-6 ">Languages</h3>
+          <div class="flex justify-center flex-wrap gap-[40px]">
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Turkmen</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Russian</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center flex-wrap">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">English (Elementary)</h4>
+            </div>
+            <div class="bg-[#222] p-[30px] rounded-lg shadow-lg text-center w-[100px] h-[80px] sm:w-[250px] sm:h-[150px] flex items-center justify-center">
+              <h4 class="text-[#FFF] font-medium text-[15px] sm:text-[25px]">Turkish</h4>
+            </div>
+          </div>
+        </div>
+      </div>2
+      </div>
+
+   
+    </section>
+    
+    <footer class="block bg-[#111] text-[#FFF] py-[20px] px-[10px]">
+      <div class="max-w-[1200px] mx-auto flex justify-between items-center">
+
+        <a
+          href="https://github.com/Askeladd04"
+          target="_blank"
+          class="flex items-center gap-[10px] hover:text-[#FF2B51] transition">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+          <span class="text-[16px] sm:text-[20px] font-medium">GitHub</span>
+        </a>
+
+        <div class="flex items-center gap-[10px]">
+          <span
+            id="copyButton"
+            class=" text-[16px] sm:text-[20px] text-[#FF2B51] font-medium  flex gap-[10px] items-center cursor-pointer"
+          >
+        
+            +993 65458698
+        </span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const copyButton = document.getElementById('copyButton');
+      copyButton.addEventListener('click', () => {
+        navigator.clipboard.writeText('+993 65458698')
+          .then(() => alert('Номер телефона скопирован!'))
+          .catch(err => console.error('Ошибка копирования:', err));
+      });
+
+
+      
+    </script>
+  </body>
+</html>
+
